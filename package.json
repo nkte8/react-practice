@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://nkte8.github.io/react-practice/",
   "eslintConfig": {
     "extends": [
       "react-app",
