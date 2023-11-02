@@ -1,0 +1,36 @@
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    background-color: #333;
+    transition : all 0.3s ease 0s;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* .meun a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu a,a:visited {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    transition : all 0.3s ease 0s;
+} */
+
