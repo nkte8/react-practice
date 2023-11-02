@@ -12,15 +12,15 @@ export function Menu(): JSX.Element {
   return (
     <BrowserRouter>
       <ul className="menu">
-        <Link to="/"><li>Home</li></Link>
-        <Link to="/page1"><li>Page1</li></Link>
-        <Link to="/page2"><li>Page2</li></Link>
+        <Link to="./"><li>Home</li></Link>
+        <Link to="./page1"><li>Page1</li></Link>
+        <Link to="./page2"><li>Page2</li></Link>
       </ul>
 
       <Routes>
-      <Route path="/" Component={Home} />
-      <Route path="/page1" Component={Page1} />
-      <Route path="/page2" Component={Page2} />
+      <Route path="./" Component={Home} />
+      <Route path="./page1" Component={Page1} />
+      <Route path="./page2" Component={Page2} />
       </Routes>
     </BrowserRouter>
   );
