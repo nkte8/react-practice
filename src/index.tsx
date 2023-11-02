@@ -5,12 +5,14 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 import { Menu } from './components/menu/menu'; 
+import { Header } from './components/header/header'; 
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <Header />
     <Menu />
     <App />
   </React.StrictMode>
