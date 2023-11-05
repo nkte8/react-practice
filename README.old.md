@@ -1,4 +1,5 @@
-# portfolio  
+# react-practice
+
 フロントエンドの勉強もかねて。  
 Reactでフロントエンド・Typescriptでバックエンドなモダンなやつをやってみたいな...
 
@@ -21,7 +22,7 @@ npx create-react-app . --template typescript
 docker run --rm -v $PWD:/src -w /src -u `id -u`:`id -g` -p 3000:3000 -it node:lts /bin/bash
 npm start
 ```
-localhost:3000へアクセスすると、ページを表示
+localhost:3000 へアクセスすると、ページを表示
 
 react routerの導入
 ```
